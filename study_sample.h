@@ -25,7 +25,7 @@ union uni {
 };
 
 
-void api1(int a, char b, float c, unsigned long int d, long double e);
+void api1_mod(int a, char b, float c, unsigned long int d, long double e);
 enum enm3 api2(enum enm1 a, Enm2 b);
 char* api3(char *a, char b[], char c[10]);
 float api12 ( char c );
