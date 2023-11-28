@@ -9,7 +9,7 @@
 #include	<stdio.h>
 #include	<stdlib.h>
 #include	"study_sample.h"
-
+//test
 #ifdef __GNUC__ 
 struct { int test_yoon_a ; } ;
 #else
@@ -103,7 +103,7 @@ void stubFunc0 (sst_extern_A) {
 //}
 
 int abc(int a){
-	if(abc_1(a) > 0 ){
+	if(modified(a) > 0 ){
 		printf("Return value is 1\n");
 		if(stubFunc1 () != 0){
 			printf("Return value is 3\n");
@@ -118,7 +118,7 @@ int abc(int a){
 	timeout();
 	return stubFunc2 ();
 }
-int abc_1(a){
+int modified(a){
 	return 1;
 }
 int pTest(int * a){
